@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-container {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table::before {
+  margin-top: 10px;
+  border-top: 1px gray;
+}
+
+table tr .total {
+  border-top: 1px gray;
+  border-bottom: 1px gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
