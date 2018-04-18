@@ -44,7 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = `/${ENV.modulePrefix}`;
+    ENV.rootURL = `/roam-analytics`;
     ENV.locationType = 'hash';
   }
 
